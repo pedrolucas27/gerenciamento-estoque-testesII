@@ -1,0 +1,8 @@
+# IDE specific files
+/.idea/
+
+# Maven
+target/
+
+# IntelliJ IDEA
+.idea/
