@@ -26,7 +26,6 @@ public class Estoque {
 
         int novaQuantidade = produtos.get(codigoProduto) - quantidade;
 
-
         // BUG INSERIDO !!!
         if(novaQuantidade < 0)
             produtos.replace(codigoProduto, novaQuantidade);
